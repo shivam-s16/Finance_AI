@@ -1,9 +1,9 @@
 import streamlit as st
 from pages import (
     
-    page_visualize_data,
-    page_filing_qa,
-    page_financial_overview,
+    visualize_data,
+    filing_qa,
+    financial_overview,
 )
 
 st.set_page_config(page_title="Financial Analysis Tool", page_icon=":chart_with_upwards_trend:")
@@ -35,9 +35,9 @@ if page == "Home":
     """)
 
 elif page == "Visualize Data":
-    page_visualize_data.app()
+    visualize_data.app()
 elif page == "Q&A with Filing":
-    page_filing_qa.app()
+    filing_qa.app()
 
 elif page == "Financial Overview":
-    page_financial_overview.app()
+    financial_overview.app()
