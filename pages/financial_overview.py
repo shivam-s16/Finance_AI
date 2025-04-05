@@ -41,7 +41,7 @@ def generate_docx(result):
 llm=ChatGoogleGenerativeAI(model="gemini-1.5-flash",
                            verbose=True,
                            temperature=0.7,
-                           GOOGLE_API_KEY="AIzaSyCRfXSJva5vdurtcgj_QaMjSd0Vn5kUDEI")
+                           GOOGLE_API_KEY="")
 
 
 researcher = Agent(
